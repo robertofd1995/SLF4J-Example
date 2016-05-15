@@ -6,14 +6,22 @@ import javax.faces.bean.*;
 import javax.faces.context.FacesContext;
 import javax.faces.event.ActionEvent;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.sdi.model.Alumno;
 
 @ManagedBean(name="alumno")
 @SessionScoped
 public class BeanAlumno extends Alumno implements Serializable {
+	
+	
+  private static Logger log = LoggerFactory.getLogger(BeanAlumno.class);
+	
   private static final long serialVersionUID = 55556L;
   
   public BeanAlumno() {
+	log.info("!!!!!!Alumno creado!!!!!!");
     iniciaAlumno(null);
   }
 //Este método es necesario para copiar el alumno a editar cuando
