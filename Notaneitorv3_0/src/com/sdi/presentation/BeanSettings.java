@@ -44,7 +44,11 @@ public class BeanSettings implements Serializable {
 	@PostConstruct
 	public void init() {
 
-		log.info("!!!!!!TEEEEESSSSSTTTTTT SETTTINGS !!!!!!!!");
+		log.info("!!!!!!TEST SETTTINGS INFFFFOOOOO!!!!!!!!");
+		log.debug("TEST SETTINGSSSS DEBUGGGGG!!!!!!!");
+		log.warn("TEST WARRRNNNN!!!!!!!!!");
+		log.error("TEST ERRRIRIRIRIRIROR");
+		log.trace("TEST TRACEEEEE");
 		System.out.println("BeanSettings - PostConstruct");
 		// Buscamos el alumno en la sesión. Esto es un patrón factoría
 		// claramente.
