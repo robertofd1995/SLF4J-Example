@@ -1,2 +1,5 @@
 # SLF4J-Example
-In this repository we will make use of the SLF4J and Log4J and we will explain how to easily use it in our projects
+En este repositorio usaremos SLF4J y Log4J y explicare como podemos usarlo en nuestros proyectos.
+
+Podeis encontrar un archivo explicando el proceso aqui : https://goo.gl/TlMNzH
+Y tambien podeis una presentacion que explica de manera mas resumida el ejemplo : https://goo.gl/CL7RlB
